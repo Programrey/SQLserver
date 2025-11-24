@@ -6,3 +6,14 @@ Service: SQL Full-text Filter Deamon Laucher
 Account Name: NT service/MSSQLFDLaucher$SQLEXPRESS 
 Password: 
 Startup Type: Manual
+
+
+avansando 
+tengo un proyecto de en java, quiero hacer un login y estoy usando este scrip 
+
+CREATE TABLE usuarios (
+    id INT IDENTITY(1,1) PRIMARY KEY,
+    username VARCHAR(50) NOT NULL UNIQUE,
+    password VARCHAR(255) NOT NULL
+);
+ intente hacerlo tambien manualmente.
